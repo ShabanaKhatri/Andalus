@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "262737585887",
+    "firebase_url": "https://andalus-8a615.firebaseio.com",
+    "project_id": "andalus-8a615",
+    "storage_bucket": "andalus-8a615.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262737585887:android:e9a88a667c4b64a7",
+        "android_client_info": {
+          "package_name": "com.kuwait.andalus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262737585887-el1gfsnskae22dn4laqker0cn8pildcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp7MwTdiOTD8rz4hOxboAK6VGzEuIyLb4"
+        },
+        {
+          "current_key": "AIzaSyCzB9ReaofMf-WoSa4EBpkjwxUe_qalBaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262737585887:android:9119ab1680428b36",
+        "android_client_info": {
+          "package_name": "com.kuwait.andalus_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262737585887-el1gfsnskae22dn4laqker0cn8pildcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp7MwTdiOTD8rz4hOxboAK6VGzEuIyLb4"
+        },
+        {
+          "current_key": "AIzaSyCzB9ReaofMf-WoSa4EBpkjwxUe_qalBaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262737585887:android:383237dae81bf9cd",
+        "android_client_info": {
+          "package_name": "hightecit.andalus.kuwait"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262737585887-el1gfsnskae22dn4laqker0cn8pildcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp7MwTdiOTD8rz4hOxboAK6VGzEuIyLb4"
+        },
+        {
+          "current_key": "AIzaSyCzB9ReaofMf-WoSa4EBpkjwxUe_qalBaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

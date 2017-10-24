@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Andalus</string>
+    <integer name="rotation">0</integer>
+
+    <!--All the fonts-->
+    <string name="regular_font">fonts/english/OpenSans-Regular.ttf</string>
+    <string name="bold_font">fonts/english/OpenSans-ExtraBold.ttf</string>
+
+    <!--All Labels-->
+    <string name="search">Search</string>
+    <string name="ok">OK</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="no_internet_available">Please make sure that you have internet connectivity</string>
+    <string name="terms_conditions" />
+    <string name="about_app" />
+    <string name="version">version</string>
+    <string name="setting">Settings</string>
+    <string name="notification">Notifications</string>
+    <string name="logout">Logout</string>
+    <string name="my_profile">My Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="push_notification">Push Notification</string>
+    <string name="old_password">OLD PASSWORD</string>
+    <string name="new_password">NEW PASSWORD</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="are_you_sure_want_back">Are you sure want to go back? Your filled information will be lost on click yes.</string>
+    <string name="no_record_found">No record found</string>
+    <string name="something_went_wrong">Something went wrong. Please try again.</string>
+    <string name="login_your_account_here">LOGIN YOUR ACCOUNT HERE:</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="pls_entr_email">Please enter email</string>
+    <string name="pls_entr_valid_email">Please enter valid email</string>
+    <string name="pls_entr_password">Please enter password</string>
+    <string name="invalid_login_credentials">Invalid login credentials</string>
+    <string name="are_you_sure_want_logout">Are you sure want to logout?</string>
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="submit">Submit</string>
+    <string name="password_reset_link">Password reset link has been sent to your email id.</string>
+    <string name="building_no">Building No.</string>
+    <string name="home">Home</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="contact_number">CONTACT NUMBER</string>
+    <string name="pls_entr_full_name">Please enter full name</string>
+    <string name="pls_entr_contact_number">Please enter contact number</string>
+    <string name="contact_number_must_min_7_max_15">You can enter minimum 7 and maximum 15 characters for contact number</string>
+    <string name="pls_enter_confirm_password">Please enter confirm password</string>
+    <string name="pls_entr_pw">Please enter your old password</string>
+    <string name="pls_entr_pw_len">Password must contain minimum of 6 and maximum of 16 characters</string>
+    <string name="password_mismatch">Password mismatch</string>
+    <string name="pls_enter_new_password">Please enter your new password</string>
+    <string name="password_length">You can enter minimum character 6 for password</string>
+    <string name="your_password_changed_success">Your password changed successfully</string>
+    <string name="profile_updated_successfully">Profile updated successfully</string>
+
+
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/llMainHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <!-- <LinearLayout
+             android:id="@+id/llHeaderMain"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize"
+             android:orientation="vertical"
+             android:padding="8dp">
+
+             <ImageView
+                 android:id="@+id/ivHeaderLogo"
+                 android:layout_width="wrap_content"
+                 android:layout_height="40dp"
+                 android:layout_marginEnd="4dp"
+                 android:layout_marginLeft="4dp"
+                 android:layout_marginRight="4dp"
+                 android:layout_marginStart="4dp"
+                 android:adjustViewBounds="true"
+                 android:src="@drawable/logo_only" />
+         </LinearLayout>-->
+
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/prlSubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            android:paddingEnd="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingStart="8dp"
+            android:visibility="visible">
+
+            <FrameLayout
+                android:id="@+id/flLeft"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:layout_widthPercent="10%">
+
+                <ImageView
+                    android:id="@+id/ivHeaderLogo"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_menu_a" />
+
+                <ImageView
+                    android:id="@+id/ivBack"
+                    style="@style/BackButtonStyle"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:tint="@color/white"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/flCenter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/flLeft"
+                android:layout_toRightOf="@+id/flLeft"
+                app:layout_widthPercent="80%">
+
+                <TextView
+                    android:id="@+id/tvHeaderTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginStart="2dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:freezesText="true"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="Home"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                    android:textColor="@color/white" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/flRight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                app:layout_widthPercent="10%">
+
+                <ImageView
+                    android:id="@+id/imgLogout"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/logout_icon"
+                    android:tint="@color/white" />
+
+            </FrameLayout>
+        </android.support.percent.PercentRelativeLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_searchable_dialog">
+
+            <EditText
+                android:id="@+id/edtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="Search"
+                android:maxLines="1"
+                android:minLines="1"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <View
+                android:id="@+id/viewLine"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/edtSearch"
+                android:background="@color/colorAccent" />
+
+            <ListView
+                android:id="@+id/lvItems"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/viewLine"
+                android:background="@drawable/shape_searchable_dialog"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="#bfbfbf"
+                android:dividerHeight="1dp"
+                android:listSelector="@android:color/transparent"
+                android:scrollbarThumbVertical="@android:color/transparent"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/txtNoRecordFound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/no_record_found"
+                android:textColor="#26384f"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

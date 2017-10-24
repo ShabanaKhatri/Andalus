@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#154ba3</color>
+    <color name="colorPrimaryDark">#0d2950</color>
+    <color name="colorAccent">#154ba3</color>
+
+    <color name="error_color">#e50000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="timer_disable">#d4e1e9</color>
+    <color name="color_round">#8aa5d1</color>
+    <color name="ColorSilver">#d3d3d3</color>
+    <color name="NavyBlue">#154ba3</color>
+    <color name="btn_dialog_bg">#f8f8f8</color>
+
+</resources>

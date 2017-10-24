@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".setting.SettingFragment">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvSetting"
+            android:layout_width="wrap_content"
+            android:overScrollMode="never"
+            android:layout_height="match_parent"
+            android:scrollbarThumbVertical="@android:color/transparent"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/row_setting_list_items" />
+
+    </LinearLayout>
+</layout>
